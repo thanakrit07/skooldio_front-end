@@ -1,0 +1,31 @@
+.infohead{
+    max-height: 126px;
+}
+p{
+    margin: 0;
+}
+.faculty{
+    width: 335.4px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 0.67;
+    color: #ff5a5a;
+}
+.major{
+    margin-top: 8px;
+    width: 203px;
+    height: 16px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 0.8;
+    color: #9b9b9b;
+}
+.univ{
+    margin-top: 24px;
+    width: 217.2px;
+    height: 16px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 0.8;
+    color: #9b9b9b;
+}

@@ -9,7 +9,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 5s linear;
   }
 }
 
@@ -35,4 +35,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.main{
+  overflow: auto;
+  max-width: 442px;
+  max-height: 493px;
+  padding: 16px;
+  font-family: Prompt;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  
 }

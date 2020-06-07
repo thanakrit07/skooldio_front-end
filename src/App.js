@@ -1,26 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import './css/App.css';
+import Infohead from './components/Infohead';
+import Scoreboard from './components/Scoreboard';
+import Scoredetail from './components/Scoredetail';
+import Share from './components/Share';
+import { Grid, Paper } from '@material-ui/core'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Grid container justify="center">
+      <Grid item>
+        <Paper className="main">
+        <Infohead faculty="วิศวกรรมศาสตร์" major="วิศวกรรมทั่วไป" university="จุฬาลงกรณ์มหาวิทยาลัย"/>
+        <hr/>
+        <Scoreboard/>
+        <hr/>
+        <Scoredetail/>
+        <hr/>
+        <Share nUsers={10}/>
+        </Paper>
+        
+      </Grid>
+    </Grid>
   );
 }
-
-export default App;
+export default App
